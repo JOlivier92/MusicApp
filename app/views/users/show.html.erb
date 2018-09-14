@@ -1,0 +1,6 @@
+<h1>Welcome User.</h1>
+<% if current_user %>
+  <h2>Your email is <%= current_user.email %></h2>
+<% else %>
+  <h2>FIX ME LATER, USER EMAIL WITHOUT CREATING</h2>
+<% end %>
